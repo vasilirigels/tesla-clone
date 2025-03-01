@@ -1,0 +1,29 @@
+nav .headerList {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+nav .headerList li {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10%;
+}
+
+nav .headerList li:first-of-type {
+    font-size: 20px;
+}
+
+nav .headerList li:hover {
+    background-color: var(--hover-background);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 200;
+}

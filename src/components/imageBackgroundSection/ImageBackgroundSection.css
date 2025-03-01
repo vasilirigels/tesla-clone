@@ -1,0 +1,55 @@
+.image-background {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.image-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-background .overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-section button {
+    margin: 0px 20px;
+}
+
+.feature-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.feature-items li {
+    padding: 0px 10px;
+    margin: 0px 15px;
+}
+
+.feature-items h6 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.feature-items p {
+    font-size: 14px;
+}

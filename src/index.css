@@ -1,0 +1,39 @@
+:root {
+  --hover-background: rgba(179, 179, 179, 0.2);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  color: white;
+  overflow-y: auto;
+}
+
+.container {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.shop-page {
+  background-color: black;
+  display: grid;
+  place-items: center;
+  padding: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}

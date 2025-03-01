@@ -1,0 +1,14 @@
+.backdrop {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.blur-content {
+    filter: blur(2px);
+    transition: filter 0.3s ease-out;
+}

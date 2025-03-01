@@ -1,0 +1,37 @@
+nav.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 400px;
+    z-index: 200;
+    background-color: white;
+    color: black;
+}
+
+nav.sidebar button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+nav.sidebar ul {
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+nav.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav.sidebar ul li:hover,
+nav.sidebar button:hover {
+    background-color: var(--hover-background);
+}
